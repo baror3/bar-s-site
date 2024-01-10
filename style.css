@@ -52,25 +52,44 @@ ol {
 	text-align: left;
 	margin: 0 28%;
 }
+.gallery {
+    border: 1px solid #ccc;
+	background-color: rgb(224, 224, 209);
+}
+.gallery:hover {
+    border: 1px solid #777;
+    background-color: LightYellow;
+    border-color: rgb(105, 80, 70);
+}
 .gallery img{
-	width: auto;
-	height: 70%;
-	padding: 50px;
+	width: 100%;
+    height: auto;
+    padding: 10%;
 }
 * {
 	box-sizing: border-box;
 }
 .responsive {
-	border: 1px solid;
-	margin: 20px;
-	float: left;
-	width: 30%;
-	background-color: LightYellow;
+	padding: 12px 12px;
+    float: left;
+    width: 24.99999%;
 }
-.responsive:hover{
-	background-color: rgb(224, 224, 209);
-	border-color: rgb(105, 80, 70);
+@media only screen and (max-width: 850px) {
+  .responsive {
+    width: 32.99999%;
+  }
 }
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
 .footer {
   background-color: rgb(224, 224, 209);
   text-align: center;
