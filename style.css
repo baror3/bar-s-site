@@ -15,8 +15,8 @@ body {
 	margin-bottom: 20px;
 }
 .navbar {
-    position: fixed;
-    top: 0px;
+        position: fixed;
+        top: 0px;
 	opacity: 0.9;
 	width: 100%;
 	background-color: RosyBrown;
@@ -72,12 +72,7 @@ ol {
 .responsive {
 	padding: 12px 12px;
     float: left;
-    width: 24.99999%;
-}
-@media only screen and (max-width: 850px) {
-  .responsive {
     width: 32.99999%;
-  }
 }
 @media only screen and (max-width: 700px) {
   .responsive {
